@@ -1,0 +1,62 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    cursor: pointer;
+}
+.uk-list-divider > li:nth-child(n+2){
+    border-top: 1px solid #80D98A;
+  }
+
+
+/* For Desktop Versions */
+@media(min-width: 1600px){
+
+    .mainFooter{
+        margin: 0 !important;
+        text-align: center;
+        width: 100%;
+    }
+    .mainHeader{
+        padding-bottom: 75px;
+        margin-top: 5% !important;
+        flex-direction: column;     
+        align-items: center;
+    }
+    .xailogo{
+        width: 100% !important;
+        margin-bottom: -50px;
+    }
+    .languageToggle{
+        align-self: flex-end;
+        margin-top: -15px;
+        margin-right: 50px;
+    }
+
+    #searchContainer{
+        width: 100%;
+    }
+
+    #search{
+        width: 1000px;
+    }
+
+    .addressList{
+        margin-top: 5% !important;
+    }
+
+    /* For units page */
+    .uk-list-divider > li[data-v-2bb698b8]:nth-child(n+2),
+    .uk-list-divider > li[data-v-7e19e1f4]:nth-child(n+2) 
+    {
+        border-top: 1px solid #80D98A;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+

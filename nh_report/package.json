@@ -1,0 +1,34 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "report for Nonghyup",
+  "author": "Philchoi17",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "iview": "^3.5.4",
+    "nuxt": "^2.12.1",
+    "uikit": "^3.3.7"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  },
+  "engines": {
+    "node": "12.12.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-console": "off"
+    }
+  }
+}
